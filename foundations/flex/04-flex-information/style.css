@@ -7,9 +7,20 @@ img {
   height: 100px;
 }
 
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.info-items{
+  display: flex;
 }
 
 /* do not edit this footer */
