@@ -21,6 +21,15 @@ img {
 
 .info-items{
   display: flex;
+  gap: 52px;
+}
+
+.item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+  text-align: center;
 }
 
 /* do not edit this footer */
